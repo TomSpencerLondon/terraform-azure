@@ -150,13 +150,32 @@ When we push the code to our repository and the GitHub actions run successfully 
 ![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/c2c061d4-41a6-46d4-8786-853ea24f0d4f)
 
 
-The function is running on Azure:
+The functionApp environment is now running on Azure:
 ![image](https://github.com/TomSpencerLondon/terraform-azure/assets/27693622/94bab1d6-a799-4763-8df7-26e4ce903e8e)
 
-I can deploy a function to this app and now access the resource:
+
+### Deploy a function to the environment
+We can run a function locally with the following commands:
+
+```bash
+npm install -g azure-functions-core-tools@4 --unsafe-perm true
+func init
+func new
+func start
+```
+
+We can then deploy the function:
+```bash
+func azure functionapp publish cloudquickpocsfuncapp
+```
+We can then see the function in the browser:
+
 ```bash
 Functions in cloudquickpocsfuncapp:
     myFirstTriggerFunction - [httpTrigger]
         Invoke url: https://cloudquickpocsfuncapp.azurewebsites.net/api/myfirsttriggerfunction
 
 ```
+
+https://cloudquickpocsfuncapp.azurewebsites.net/api/myfirsttriggerfunction
+
