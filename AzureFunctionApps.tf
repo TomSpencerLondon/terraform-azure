@@ -1,7 +1,7 @@
 #Create RG for function App
 resource "azurerm_resource_group" "funcdeploy" {
   name     = "CloudquickPocs-rg-functionApp"
-  location = "East US"
+  location = "northcentralus"
 }
 
 # Create Azure Storage Account
