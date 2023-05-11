@@ -3,6 +3,9 @@ In this article we will deploy an Azure function app using terraform. This video
 useful:
 https://www.youtube.com/watch?v=PUtLnXCqPVE
 
+This article was also useful on deploying to Azure using Terraform:
+https://www.blendmastersoftware.com/blog/deploying-to-azure-using-terraform-and-github-actions
+
 ### Resource group
 The resource group is a container that holds related resources for an Azure solution. 
 The resource group can include all the resources for the solution, or only those resources 
