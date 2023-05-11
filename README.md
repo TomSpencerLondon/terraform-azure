@@ -152,3 +152,11 @@ When we push the code to our repository and the GitHub actions run successfully 
 
 The function is running on Azure:
 ![image](https://github.com/TomSpencerLondon/terraform-azure/assets/27693622/94bab1d6-a799-4763-8df7-26e4ce903e8e)
+
+I can deploy a function to this app and now access the resource:
+```bash
+Functions in cloudquickpocsfuncapp:
+    myFirstTriggerFunction - [httpTrigger]
+        Invoke url: https://cloudquickpocsfuncapp.azurewebsites.net/api/myfirsttriggerfunction
+
+```
