@@ -143,7 +143,7 @@ resource group, storage account, app service plan and app insights. The function
 function. We also give the required parameters for the function app including the name, location, resource group name, service plan id, storage account name
 and storage account access key. The app runs on https on a linux server. We have set the python version to 3.8.
 
-When we push the code to our repository the github actions run successfully and deploy the function:
+When we push the code to our repository and the GitHub actions run successfully and deploy the function:
 ![image](https://github.com/TomSpencerLondon/LeetCode/assets/27693622/c2c061d4-41a6-46d4-8786-853ea24f0d4f)
 
 
